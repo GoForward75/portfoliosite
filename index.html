@@ -1,312 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="google-site-verification" content="YZMJalnAH65DLOp-MNWjb0epY-Mw_qJsi4fYas5BjcY" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      rel="stylesheet"
-    />
-    <link href="css/style.css" rel="stylesheet" />
-    <title>Balogun Joseph's Portfolio Website</title>
-  </head>
-  <body>
-    <nav>
-      <ul>
-        <li>
-          <h1>
-            <a href="index.html">
-              <span class="fa-solid fa-angles-up"></span>
-              <span>Balogun Joseph</span>
-            </a>
-          </h1>
-        </li>
-        <li><a href="index.html#projects">Projects</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li>
-          <a href="https://www.linkedin.com/in/joebalo-32a9011b7/" target="_blank">
-            <span class="fab fa-linkedin" aria-hidden="true"></span>
-            <span class="sr-only">LinkedIn</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/GoForward75" target="_blank">
-            <span class="fab fa-github-square" aria-hidden="true"></span>
-            <span class="sr-only">Github</span>
-            
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://docs.google.com/document/d/1V2spHd1d2b2Y1fsbLlC6Nurm0afLP890E8sP4_P2Aro/edit?usp=sharing"
-            target="_blank"
-            class="button"
-          >
-            Resume
-          </a>
-        </li>
-      </ul>
-    </nav>
-
-    <div class="gradient"></div>
-
-    <section id="intro">
-      <p class="name">Hi, my name is <span>Balogun Joseph.</span></p>
-      <h2>I develop emails.</h2>
-      <p>I'm a developer who specializes in Email Development.</p>
-      <!-- <p>
-        I currently work as a freelancer on
-        <a href="https://www.upwork.com/workwith/davidbabatunde2" target="blank"
-          >Fiverr</a
-        >
-        and I am open to being employed.
-      </p> -->
-    </section>
-
-    <div class="gradient"></div>
-
-    <div class="section-plum">
-      <section id="contact">
-        <h2>Contact me</h2>
-        <p>
-         Connect with me today.
-        </p>
-        <!-- <p><a href="mailto:jbalogun094@gmail.com" class="button">Email me</a></p> -->
-
-          <!-- <h2>Balogun Joseph &middot;Email Developer</h2> -->
-          <ul class="icons">
-            <li>
-              <a href="https://www.linkedin.com/in/joebalo-32a9011b7/" target="_blank">
-                <span class="fa-brands fa-linkedin social"  aria-hidden="true"></span>
-                <span class="sr-only">LinkedIn</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/GoForward75" target="_blank">
-                <span class="fa-brands fa-github-square"></span>
-                <span class="sr-only">Github</span>
-              </a>
-            </li>
-            <li>
-              <a href="mailto: jbalogun094@gmail.com">
-                <span class="fa-solid fa-envelope"></span>
-                <span class="sr-only"></span>
-              </a>
-            </li>
-          </ul>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Joseph- Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
         
-      </section>
-    </div>
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
 
-    <div class="gradient"></div>
-
-    <div class="section-blue">
-      <section id="projects">
-        <h2>Some of My Projects</h2>
-        <article class="reverse">
-          <div class="text">
-            <h4>Newsletter</h4>
-            <a
-              href="https://goforward75.github.io/FashionNewsletter/"
-              target="_blank"
-              ><h3 class="filled">VIEW PROJECT</h3></a
-            >
-            <div class="blackbox">
-            <p>
-              I remade an email newsletter from Business of Fashion (BoF)
-              <ul class="features">
-                <li>Accurate</li>
-                <li>Interactive</li>
-                <li>Responsive</li>
-                <li>Beautiful</li>
-              </ul>
-            </p>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="" alt="">
             </div>
-            <h4>Technologies used include:</h4>
-            <ul class="stack">
-              <li>MJML</li>
-              <li>HTML</li>
-              <li>CSS</li>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Balogun Joseph</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro"> an Email Developer</p>
+            
+        </section>
+
+        
+        
+        
+        <!-- My skills -->
+        <footer class="footer" id="services">
+            <!-- replace with your own email address -->
+            <h2 class="section__title section__title--services">Skills</h2>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" >
+                        <i class="fab fa-codepen"> &nbsp;HTML</i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" >
+                        <i class="fab fa-codepen"> &nbsp;CSS</i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" >
+                        <i class="fab fa-codepen"> &nbsp;MJML</i>
+                    </a>
+                </li>
+               
+               
             </ul>
-          </div>
-          <img href="https://goforward75.github.io/FashionNewsletter/"
-            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8kHqm-mMiBNZEhUVfwyz0sNxCmtkn5EP8CIyvDnV0SvdZpINNGzYS9aH5RaVmTyp_ld5lkHdz-HbjTz6FCx2pLECzjkF3G5eo5-QSM8qiBTuc29p1h3r26GOwJ_XIFBpMqwdX9P-s_vB-l6ts2QbhmMT9zSdgEwK7O7mZROvUXju8wkuKrf76Sj3e/w411-h306/bofImage.PNG"
-            alt="Screenshot of  email newsletter from business of fashion." height="400px"
-          />
-        </article>
 
-        <article class="reverse">
-          <div class="text">
-            <h4>Newsletter</h4>
-            <a
-              href="https://goforward75.github.io/voxNews/"
-              target="_blank"
-              ><h3 class="filled">VIEW PROJECT</h3></a
-            >
-
-            <p class="blackbox">
-              I remade an email newsletter from the Vox News. (I love newsletters!)
-            </p>
-            <h4>Technologies used include:</h4>
-            <ul class="stack">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>MJML</li>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" >
+                        <i class="fab fa-codepen"> &nbsp;Sketch</i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" >
+                        <i class="fab fa-codepen"> &nbsp;Figma</i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" >
+                        <i class="fab fa-codepen"> &nbsp;Mailchimp</i>
+                    </a>
+                </li>
+               
+               
             </ul>
-          </div>
-          <img
-            src="https://i.ibb.co/vVGJb8z/Capture.png"
-            alt="Screenshot of landing page" height="400px"
-          />
-        </article>
 
-        <article>
-          <div class="text">
-            <h4>Transactional Email</h4>
-            <a
-            href="https://goforward75.github.io/sendGridTransactional/"
-            target="_blank"
-            ><h3 class="filled">VIEW PROJECT</h3></a
-          >
-            <div class="blackbox">
-              <p>
-                I remade a transactional email from SendGrid
-                <!-- <ul class="features">
-                  <li>View the optimal layout for the site depending on their device's screen size.</li>
-                  <li>See hover states for all interactive elements on the page.</li>
-                  <li>Filter job listings based on the categories selected.</li>
-                </ul> -->
-              </p>
-              </div>
+        </footer>
 
-            <h4>Technologies used include:</h4>
-            <ul class="stack">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>MJML</li>
+        <!-- <footer class="footer" id="services"> -->
+            <!-- replace with your own email address -->
+            
+            <!-- <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" >
+                        <i class="fab fa-codepen"> &nbsp;Sketch</i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" >
+                        <i class="fab fa-codepen"> &nbsp;Figma</i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link">
+                        <i class="fab fa-codepen"> &nbsp;Photoshop</i>
+                    </a>
+                </li>
+                
             </ul>
-          </div>
-          <img
-            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigHexV2ck7wEjZg64GM9Qjb_I6e5PAX6PPvMdBV6ep1R0TyjsfzyVr_FrZZuu8hQE3kBiA6SUnzX2-SNhuSVfMivdNPNGdK4L8YRlygEYugD14o36gzvm23ym3G6g1HldSfqU-GkFnbNEok77lwTC9qWjKeBa7faE8ozoNiSoq4bCGPSAUC1pKTxgJ/w364-h305/sendGridImage.PNG"
-            alt="Screenshot of SendGrid transactional email." height="400px"
-          />
-        </article>
+        </footer> -->
 
-        <article class="reverse">
-          <div class="text">
-            <h4>Landing Page</h4>
-            <a
-              href="https://goforward75.github.io/adobeLpage/"
-              target="_blank"
-              ><h3 class="filled">VIEW PROJECT</h3></a
-            >
+                <!-- WORK PROCESS -->
+        <section class="my-services" id="">
+            <h2 class="section__title section__title--services">Work Process</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>DESIGN</h3>
+                    <p>I obtain the design mockups in whatever format from you- PNG, SVG, JPEG, PSD, etc... All types of files are welcome.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>DEVELOP</h3>
+                    <p>I go on to convert the design mockup into responsive and pixel perfect html code that renders perfectly across all major email clients.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>TEST</h3>
+                    <p>Email development is incomplete without testing. I test to ensure nothing is left to chance and that your email renders perfectly across major clients as desired.</p>
+                </div> <!-- / service -->
 
-            <p class="blackbox">
-              I remade a landing page  from Adobe
-            </p>
-            <h4>Technologies used include:</h4>
-            <ul class="stack">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>MJML</li>
+                <div class="service">
+                    <h3>LAUNCH</h3>
+                    <p>Your custom email is now ready to be sent to the inbox of your waiting customers!</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Email Lover and Developer</p>
+           
+           <div class="about-me__body">
+               <p>Hi! I am an Email Developer based in the university of Ibadan campus, Ibadan, Nigeria.</p>
+               <p>I love, develop beautiful and responsive emails. I'm self-motivated, detail-oriented and eager to learn new things. I have solid experience with HTML emails and can take design mockups and convert them into pixel perfect HTML and CSS. </p>
+               <p>I'm committed to life long learning and passionate about problem solving.</p>
+               <p>Feel free to contact me.</p>
+           </div>
+           <img src="https://i.ibb.co/cbThVgh/Joe-image.jpg" alt="Smiling Joe" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of a few of my projects</p>
+            <h3 style="padding-bottom: 30px;">Click to view project</h3>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="1portfolio-teachable.html" target="_blank" class="portfolio__item">
+                    <img src="
+                    https://i.ibb.co/C1PNsTs/teachable.png" alt="" class="portfolio__img" width=360px" height="500px">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="2portfolio-vuori.html" target="_blank" class="portfolio__item">
+                    <img src="https://i.ibb.co/zJhXQs1/vuo.png" alt="" class="portfolio__img" width=360px" height="500px">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="3portfolio-harper-lee.html" target="_blank" class="portfolio__item">
+                    <img src="https://i.ibb.co/XbqPf73/harper-lee.png" alt="" class="portfolio__img" width=360px" height="500px">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="4portfolio-adobe.html" target="_blank" class="portfolio__item">
+                    <img src="https://i.ibb.co/1bWrb3B/adobe.png" alt="" class="portfolio__img" width=360px" height="500px">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="5portfolio-axa-singtel.html" target="_blank" class="portfolio__item">
+                    <img src="https://i.ibb.co/sgvSg6B/axa-singtel.png" alt="" class="portfolio__img" width=360px" height="500px">
+                </a>
+                
+                <!-- Portfolio item 06 -->
+                <a href="6portfolio-destinations.html"  target="_blank" class="portfolio__item">
+                    <img src="https://i.ibb.co/qpsyx5r/destinations.png" alt="" class="portfolio__img" width=360px" height="500px">
+                </a>
+                
+                <!-- Portfolio item 07 -->
+                <a href="7portfolio-cometeer.html" target="_blank" class="portfolio__item">
+                    <img src="https://i.ibb.co/Q641XZj/cometeer.png" alt="" class="portfolio__img" width=360px" height="500px">
+                </a>
+                
+                <!-- Portfolio item 08 -->
+                <a href="8portfolio-peloton.html" target="_blank" class="portfolio__item">
+                    <img src="https://i.ibb.co/kKw4b0G/peloton-row.png" alt="" class="portfolio__img" width=360px" height="500px">
+                    
+                </a>
+                
+                <!-- Portfolio item 09 -->
+                <!-- <a href="#" class="portfolio__item">
+                    <img src="img/" alt="" class="portfolio__img">
+                    <p></p>
+                </a> -->
+                
+                <!-- Portfolio item 0 0-->
+                <!-- <a href="#" class="portfolio__item">
+                    <img src="img/" alt="" class="portfolio__img">
+                </a> -->
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer" id="contact">
+            <h2 class="section__title section__title--work">Get in touch</h2>
+            <!-- replace with your own email address -->
+
+            <a href="mailto:jbalogun094@gmail.com" class="footer__link" target="_blank">jbalogun094@gmail.com</a>
+            <ul class="social-list">
+               
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/joebalo-32a9011b7/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/BJoe757" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/GoForward75" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
             </ul>
-          </div>
-          <img
-            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTX2UEABrR3X4tnxXyKbALYhVD7hBcRy7NwdIEB8AIyMy1DsTo8voqisjJQgbHaCWRBQANjwXKN0KJEjRkP_APE_q2H_txq-S6o3HAclxqpXrV1RkFNIc3Oku816rmEgDGBjIWMuGR2Qrfgn2HNyQKI0huNmAN4FsdbuOZTRRW_dHeRbZScKiG0EqL/s320/adobePic.PNG"
-            alt="Screenshot of landing page" height="400px"
-          />
-        </article>
-
-        <article>
-          <div class="text">
-            <h4>Promotional Email</h4>
-            <a
-            href="https://goforward75.github.io/codingPhasePromotional/"
-            target="_blank"
-            ><h3 class="filled">VIEW PROJECT</h3></a
-          >
-            <p class="blackbox">
-              A simple promotional email from Coding Phase
-            </p>
-
-            <h4>Technologies used include:</h4>
-            <ul class="stack">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>MJML</li>
-            </ul>
-          </div>
-          <img
-            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgC2UihNZSG_JuRdubwTiRMiVScVw7wzPN9hrN34fCVXIiXkVQfvm91uiEY4bz_Z1swgXFGsF_MZmc8i-SKEntebCgqKjL8hsCuPGlZFuQspMGVmdTSDh9DAh5U2xxmYPLltvsccCY8GzewliqZqxzs6FyOgq0-VJzsy39OMLBOaybFBOtY4W7D0ZJI/s320/codingPhaseImage.PNG"
-            alt="Screenshot of promotional email." height="400px"
-          />
-        </article>
-    
-
-    
-    <article>
-      <div class="text">
-        <h4>Promotional Email</h4>
-        <a
-        href="https://goforward75.github.io/filmSupply/"
-        target="_blank"
-        ><h3 class="filled">VIEW PROJECT</h3></a
-      >
-        <p class="blackbox">
-          A  promotional email from Really Good Emails
-        </p>
-
-        <h4>Technologies used include:</h4>
-        <ul class="stack">
-          <li>HTML</li>
-          <li>CSS</li>
-          
-        </ul>
-      </div>
-      <img
-        src="https://i.ibb.co/186Tx4n/Capture.png"
-        alt="Screenshot of promotional email." height="400px"
-      />
-    </article>
-  </section>
-</div>
- 
-    
-
-    <div class="gradient"></div>
-
-    <footer>
-      <h2>Balogun Joseph &middot;Email Developer</h2>
-      <ul>
-        <li>
-          <a href="https://www.linkedin.com/in/joebalo-32a9011b7/" target="_blank">
-            <span class="fa-brands fa-linkedin" aria-hidden="true"></span>
-            <span class="sr-only">LinkedIn</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/GoForward75" target="_blank">
-            <span class="fa-brands fa-github-square"></span>
-            <span class="sr-only">Github</span>
-          </a>
-        </li>
-        <li>
-          <a href="mailto: jbalogun094@gmail.com">
-            <span class="fa-solid fa-envelope"></span>
-            <span class="sr-only"></span>
-          </a>
-        </li>
-      </ul>
-      <small><p>&copy; 2022 Balogun Joseph. All rights reserved.</p></small>
-    </footer>
-  </body>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
 </html>
